@@ -19,7 +19,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 90px 120px;
+    margin: 90px 250px;
 }
 
 header a{
@@ -28,6 +28,42 @@ header a{
     font-weight: 600;
     text-decoration: none;
     margin-right: 25px;
+}
+
+/* BANNER */
+
+.banner_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 250px;
+    background-image: url('./images/Circle\ design.svg');
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+.banner_title{
+    color: #3A3A3A;
+    font-size: 52px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    max-width: 570px;
+}
+.normal_text{
+    color: #3A3A3A;
+    font-size: 16px;
+    font-weight: 600;
+    max-width: 500px;
+}
+.banner_div button{
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 41px;
+    background: #E02C6D;
+    padding: 10px 25px;
+    outline: none;
+    border: none;
+    margin-top: 15px;
 }
 
 /* RESPONSIVE STYLES STARTS */
