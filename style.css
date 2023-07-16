@@ -30,3 +30,26 @@ header a{
     margin-right: 25px;
 }
 
+/* RESPONSIVE STYLES STARTS */
+
+@media screen and (max-width:578px) {
+    header{
+        flex-direction: column;
+        margin: 20px;
+    }
+    nav{
+        margin-top: 10px;
+    }
+    header a{
+        margin-right: 10px;
+    }
+}
+
+@media screen and (min-width:578px) and (max-width:998px) {
+    header{
+        margin: 40px;
+    }
+    header a{
+        margin-right: 20px;
+    }
+}
