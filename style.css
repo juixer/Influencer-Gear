@@ -71,6 +71,24 @@ header a{
     width: 100%;
 }
 
+/* SPONSOR */
+.sponsor_container{
+    margin: 50px 300px;
+}
+hr{
+    margin: 0px 80px;
+}
+.sponsor_div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.sponsor_box img{
+    width: 100%;
+}
+
 /* RESPONSIVE STYLES STARTS */
 
 @media screen and (max-width:578px) {
@@ -96,6 +114,21 @@ header a{
     .banner_title{
         margin-top: 30px;
     }
+
+
+    .sponsor_container{
+        margin: 20px;
+    }
+   
+    .sponsor_div{
+        padding: 10px;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .sponsor_box{
+        border-bottom: 1px solid rgba(128, 128, 128, 0.38);
+    }
+
 }
 
 @media screen and (min-width:578px) and (max-width:998px) {
@@ -116,5 +149,14 @@ header a{
     .normal_text{
         max-width: 420px;
     }
-    
+
+
+    .sponsor_container{
+        margin: 50px;
+    }
+   
+    .sponsor_div{
+        padding: 10px;
+        gap: 20px;
+    } 
 }
