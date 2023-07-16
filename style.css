@@ -89,6 +89,35 @@ hr{
     width: 100%;
 }
 
+/* FOOTER */
+
+footer{
+    background: #0A0826;
+    padding: 90px 590px;
+    text-align: center;
+}
+footer h1{
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+footer p{
+    color:#D9DBE1;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 5px;
+
+}
+footer a{
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 50%;
+    color: white;
+    background-color: #d9dbe175;
+    margin-right: 5px;
+}
+
 /* RESPONSIVE STYLES STARTS */
 
 @media screen and (max-width:578px) {
@@ -129,6 +158,14 @@ hr{
         border-bottom: 1px solid rgba(128, 128, 128, 0.38);
     }
 
+
+
+
+
+    footer{
+        padding: 20px;
+    }
+
 }
 
 @media screen and (min-width:578px) and (max-width:998px) {
@@ -159,4 +196,9 @@ hr{
         padding: 10px;
         gap: 20px;
     } 
+
+
+    footer{
+        padding: 50px;
+    }
 }
